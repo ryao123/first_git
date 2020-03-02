@@ -25,4 +25,13 @@ public class UserDaoImpl implements UserDao{
 		
 	}
 
+	@Override
+	public void updat(User user) {
+		/*
+		 * for (User user1 : list) { if(user1.getName().equals(user1.getName())); }
+		 */
+		System.out.println("执行修改用户信息的操作");
+		
+	}
+
 }
